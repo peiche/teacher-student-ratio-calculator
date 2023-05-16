@@ -1,0 +1,71 @@
+{
+  "name": "teacher-student-ratio-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@appwrite.io/pink": "^0.0.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.10",
+    "@mui/x-data-grid": "^6.0.0",
+    "@mui/x-date-pickers": "^6.0.0",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/uuid": "^9.0.1",
+    "@types/wicg-file-system-access": "^2020.9.5",
+    "appwrite": "^10.2.0",
+    "dayjs": "^1.11.7",
+    "env-cmd": "^10.1.0",
+    "firebase": "^9.17.1",
+    "firebase-admin": "^11.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "redux-persist": "^6.0.0",
+    "remove": "^0.1.5",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tsconfig/create-react-app": "^1.0.3",
+    "@types/react-router-dom": "^5.3.3",
+    "cross-env": "^7.0.3",
+    "eslint-config-react-app": "^7.0.1",
+    "jest-editor-support": "^31.0.1",
+    "sass": "^1.58.3"
+  }
+}
