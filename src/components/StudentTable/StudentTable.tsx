@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useState } from 'react';
 import Student from "../../interfaces/Student";
-import { TableContainer, Table, TableRow, TableCell, TableBody, Paper, IconButton, TablePagination } from '@mui/material';
+import { TableContainer, Table, TableRow, TableCell, TableBody, Paper, IconButton, TablePagination, Chip } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
 import StudentTableHead from "../StudentTableHead/StudentTableHead";
 import Box from '@mui/material/Box';
@@ -129,9 +129,10 @@ const StudentTable = (props: StudentTableProps) => {
 										<TableCell>{Utils.formatTime(student.startTime)}</TableCell>
 										<TableCell>{Utils.formatTime(student.endTime)}</TableCell>
 										<TableCell>{Utils.formatDate(student.birthDate)}</TableCell>
+										<TableCell>
+											<Chip component='span' label={Utils.calculateRatio(new Date(student.birthDate))} variant="outlined" size='small' />
+										</TableCell>
 										<TableCell align='right'>
-											{Utils.calculateRatio(new Date(student.birthDate))}
-
 											<Tooltip title='Edit Student'>
 												<IconButton onClick={() => handleEditStudent(student.id)}>
 													<EditIcon />

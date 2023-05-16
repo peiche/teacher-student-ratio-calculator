@@ -71,6 +71,7 @@ const StudentTableHead = (props: StudentTableHeadProps) => {
 					);
 				})}
 
+				<TableHeadCell>Ratio</TableHeadCell>
 				<TableHeadCell></TableHeadCell>
 			</TableRow>
 		</TableHead>
