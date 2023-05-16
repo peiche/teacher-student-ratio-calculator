@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@appwrite.io/pink": "^0.0.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
@@ -23,8 +22,6 @@
     "appwrite": "^10.2.0",
     "dayjs": "^1.11.7",
     "env-cmd": "^10.1.0",
-    "firebase": "^9.17.1",
-    "firebase-admin": "^11.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
