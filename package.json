@@ -62,7 +62,7 @@
     "@types/react-router-dom": "^5.3.3",
     "cross-env": "^7.0.3",
     "eslint-config-react-app": "^7.0.1",
-    "jest-editor-support": "^31.0.1",
+    "jest-editor-support": "^31.1.2",
     "sass": "^1.58.3"
   }
 }
